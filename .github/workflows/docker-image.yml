@@ -36,7 +36,7 @@ jobs:
           file: Dockerfile
           tags: |
             mayankfawkes/pyinstaller:${{ steps.get_version.outputs.VERSION }}-py3.7-win64
-            mayankfawkes/pyinstaller:${{ steps.get_version.outputs.VERSION }}-py3.7.10-win64
+            mayankfawkes/pyinstaller:${{ steps.get_version.outputs.VERSION }}-py3.7.9-win64
       
       - name: Create Release
         uses: actions/create-release@v1

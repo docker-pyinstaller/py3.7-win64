@@ -3,7 +3,7 @@ FROM ubuntu:16.04
 ENV DEBIAN_FRONTEND noninteractive
 
 ARG WINE_VERSION=winehq-stable
-ARG PYTHON_VERSION=3.7.10
+ARG PYTHON_VERSION=3.7.9
 
 # we need wine for this all to work, so we'll use the PPA
 RUN set -x \
